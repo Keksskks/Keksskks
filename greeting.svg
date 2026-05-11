@@ -1,75 +1,109 @@
+<svg width="680" height="320" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg">
 
-<svg width="680" height="110" viewBox="0 0 680 110" xmlns="http://www.w3.org/2000/svg">
-  <rect width="680" height="110" rx="12" fill="#0d1117"/>
+  <rect width="680" height="320" rx="16" fill="#0d1117"/>
 
-  <text x="340" y="66" text-anchor="middle" font-family="'Segoe UI', 'Noto Sans', monospace" font-size="38" font-weight="600" letter-spacing="2">
+  <!-- top animated border -->
+  <rect x="0" y="0" width="0" height="3" rx="0" fill="#534AB7">
+    <animate attributeName="width" values="0;680;0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="4s" repeatCount="indefinite"/>
+  </rect>
 
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0s"/>
-      H
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.18s"/>
-      i
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.36s"/>
-      ,
-    </tspan>
-    <tspan> </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.54s"/>
-      I
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.72s"/>
-      '
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.90s"/>
-      m
-    </tspan>
-    <tspan> </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.08s"/>
-      K
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.26s"/>
-      e
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.44s"/>
-      k
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.62s"/>
-      s
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.80s"/>
-      s
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.98s"/>
-      k
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="2.16s"/>
-      k
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="2.34s"/>
-      s
-    </tspan>
-    <tspan>
-      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="2.52s"/>
-      !
-    </tspan>
+  <!-- grid dots -->
+  <g fill="#ffffff" opacity="0.035">
+    <circle cx="40"  cy="40"  r="1.5"/><circle cx="100" cy="40"  r="1.5"/><circle cx="160" cy="40"  r="1.5"/><circle cx="220" cy="40"  r="1.5"/><circle cx="280" cy="40"  r="1.5"/><circle cx="340" cy="40"  r="1.5"/><circle cx="400" cy="40"  r="1.5"/><circle cx="460" cy="40"  r="1.5"/><circle cx="520" cy="40"  r="1.5"/><circle cx="580" cy="40"  r="1.5"/><circle cx="640" cy="40"  r="1.5"/>
+    <circle cx="40"  cy="100" r="1.5"/><circle cx="100" cy="100" r="1.5"/><circle cx="160" cy="100" r="1.5"/><circle cx="220" cy="100" r="1.5"/><circle cx="280" cy="100" r="1.5"/><circle cx="340" cy="100" r="1.5"/><circle cx="400" cy="100" r="1.5"/><circle cx="460" cy="100" r="1.5"/><circle cx="520" cy="100" r="1.5"/><circle cx="580" cy="100" r="1.5"/><circle cx="640" cy="100" r="1.5"/>
+    <circle cx="40"  cy="160" r="1.5"/><circle cx="100" cy="160" r="1.5"/><circle cx="160" cy="160" r="1.5"/><circle cx="220" cy="160" r="1.5"/><circle cx="280" cy="160" r="1.5"/><circle cx="340" cy="160" r="1.5"/><circle cx="400" cy="160" r="1.5"/><circle cx="460" cy="160" r="1.5"/><circle cx="520" cy="160" r="1.5"/><circle cx="580" cy="160" r="1.5"/><circle cx="640" cy="160" r="1.5"/>
+    <circle cx="40"  cy="220" r="1.5"/><circle cx="100" cy="220" r="1.5"/><circle cx="160" cy="220" r="1.5"/><circle cx="220" cy="220" r="1.5"/><circle cx="280" cy="220" r="1.5"/><circle cx="340" cy="220" r="1.5"/><circle cx="400" cy="220" r="1.5"/><circle cx="460" cy="220" r="1.5"/><circle cx="520" cy="220" r="1.5"/><circle cx="580" cy="220" r="1.5"/><circle cx="640" cy="220" r="1.5"/>
+    <circle cx="40"  cy="280" r="1.5"/><circle cx="100" cy="280" r="1.5"/><circle cx="160" cy="280" r="1.5"/><circle cx="220" cy="280" r="1.5"/><circle cx="280" cy="280" r="1.5"/><circle cx="340" cy="280" r="1.5"/><circle cx="400" cy="280" r="1.5"/><circle cx="460" cy="280" r="1.5"/><circle cx="520" cy="280" r="1.5"/><circle cx="580" cy="280" r="1.5"/><circle cx="640" cy="280" r="1.5"/>
+  </g>
 
+  <!-- avatar -->
+  <circle cx="340" cy="55" r="28" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="340" y="63" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="20" font-weight="700" fill="#ffffff">K</text>
+  <circle cx="340" cy="55" r="33" fill="none" stroke="#534AB7" stroke-width="1.5" opacity="0.5">
+    <animate attributeName="r" values="33;39;33" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="stroke" values="#534AB7;#1D9E75;#D85A30;#534AB7" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- main text -->
+  <text x="340" y="112" text-anchor="middle" font-family="'Segoe UI', 'Noto Sans', monospace" font-size="32" font-weight="700" letter-spacing="1.5">
+    <tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0s"/>H</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.15s"/>i</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.30s"/>,</tspan><tspan> </tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.45s"/>I</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.60s"/>'</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.75s"/>m</tspan><tspan> </tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.90s"/>K</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.05s"/>e</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.20s"/>k</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.35s"/>s</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.50s"/>s</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.65s"/>k</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.80s"/>k</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.95s"/>s</tspan><tspan><animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="2.10s"/>!</tspan>
   </text>
 
-  <text x="340" y="92" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="13" fill="#8b949e" letter-spacing="3">
-    Developer · Builder · Open Source
+  <!-- subtitle -->
+  <text x="340" y="133" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="12" fill="#8b949e" letter-spacing="3">
+    Developer  ·  Builder  ·  Open Source
+    <animate attributeName="opacity" values="1;0.45;1" dur="3s" repeatCount="indefinite"/>
   </text>
+
+  <!-- divider -->
+  <line x1="60" y1="148" x2="620" y2="148" stroke="#21262d" stroke-width="1"/>
+
+  <!-- stat cards -->
+  <rect x="55"  y="158" width="172" height="64" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="141" y="182" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e" letter-spacing="1">REPOSITORIES</text>
+  <text x="141" y="210" text-anchor="middle" font-family="monospace" font-size="24" font-weight="700" fill="#ffffff">3+</text>
+  <circle cx="55" cy="158" r="4" fill="#534AB7"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>
+
+  <rect x="254" y="158" width="172" height="64" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="340" y="182" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e" letter-spacing="1">COMMITS 2025</text>
+  <text x="340" y="210" text-anchor="middle" font-family="monospace" font-size="24" font-weight="700" fill="#ffffff">365+</text>
+  <circle cx="254" cy="158" r="4" fill="#1D9E75"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite" begin="0.6s"/></circle>
+
+  <rect x="453" y="158" width="172" height="64" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="539" y="182" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e" letter-spacing="1">STARS EARNED</text>
+  <text x="539" y="210" text-anchor="middle" font-family="monospace" font-size="24" font-weight="700" fill="#ffffff">&#9733; 0</text>
+  <circle cx="453" cy="158" r="4" fill="#BA7517"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite" begin="1.2s"/></circle>
+
+  <!-- divider -->
+  <line x1="60" y1="234" x2="620" y2="234" stroke="#21262d" stroke-width="1"/>
+
+  <!-- tech label -->
+  <text x="340" y="253" text-anchor="middle" font-family="monospace" font-size="10" fill="#8b949e" letter-spacing="2">TECH STACK</text>
+
+  <!-- tech badges row 1 -->
+  <rect x="60"  y="261" width="72" height="22" rx="6" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="96"  y="276" text-anchor="middle" font-family="monospace" font-size="11" font-weight="600" fill="#EF9F27">JavaScript</text>
+
+  <rect x="140" y="261" width="56" height="22" rx="6" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="168" y="276" text-anchor="middle" font-family="monospace" font-size="11" font-weight="600" fill="#378ADD">Python</text>
+
+  <rect x="204" y="261" width="50" height="22" rx="6" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="229" y="276" text-anchor="middle" font-family="monospace" font-size="11" font-weight="600" fill="#5DCAA5">React</text>
+
+  <rect x="262" y="261" width="56" height="22" rx="6" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="290" y="276" text-anchor="middle" font-family="monospace" font-size="11" font-weight="600" fill="#1D9E75">Node.js</text>
+
+  <rect x="326" y="261" width="54" height="22" rx="6" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="353" y="276" text-anchor="middle" font-family="monospace" font-size="11" font-weight="600" fill="#85B7EB">Docker</text>
+
+  <rect x="388" y="261" width="40" height="22" rx="6" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="408" y="276" text-anchor="middle" font-family="monospace" font-size="11" font-weight="600" fill="#D85A30">Git</text>
+
+  <rect x="436" y="261" width="46" height="22" rx="6" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="459" y="276" text-anchor="middle" font-family="monospace" font-size="11" font-weight="600" fill="#FAC775">Linux</text>
+
+  <rect x="490" y="261" width="38" height="22" rx="6" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="509" y="276" text-anchor="middle" font-family="monospace" font-size="11" font-weight="600" fill="#AFA9EC">SQL</text>
+
+  <rect x="536" y="261" width="46" height="22" rx="6" fill="#21262d" stroke="#30363d" stroke-width="0.5"/>
+  <text x="559" y="276" text-anchor="middle" font-family="monospace" font-size="11" font-weight="600" fill="#9FE1CB">Go</text>
+
+  <!-- location & status row -->
+  <text x="160" y="304" text-anchor="middle" font-family="monospace" font-size="11" fill="#8b949e">&#128205; Vietnam</text>
+  <circle cx="238" cy="300" r="4" fill="#1D9E75"><animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <text x="310" y="304" text-anchor="middle" font-family="monospace" font-size="11" fill="#1D9E75">Open to work</text>
+  <text x="480" y="304" text-anchor="middle" font-family="monospace" font-size="11" fill="#8b949e">&#9749; Coffee-driven dev</text>
+
+  <!-- bottom footer text -->
+  <text x="340" y="317" text-anchor="middle" font-family="monospace" font-size="9" fill="#3d444d" letter-spacing="1">github.com/Keksskks</text>
+
+  <!-- bottom animated border -->
+  <rect y="317" height="3" rx="0" fill="#1D9E75">
+    <animate attributeName="x" values="680;0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="0;680;0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#1D9E75;#534AB7;#D85A30;#1D9E75" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
 </svg>
