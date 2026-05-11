@@ -1,1 +1,75 @@
 
+<svg width="680" height="110" viewBox="0 0 680 110" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="110" rx="12" fill="#0d1117"/>
+
+  <text x="340" y="66" text-anchor="middle" font-family="'Segoe UI', 'Noto Sans', monospace" font-size="38" font-weight="600" letter-spacing="2">
+
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0s"/>
+      H
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.18s"/>
+      i
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.36s"/>
+      ,
+    </tspan>
+    <tspan> </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.54s"/>
+      I
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.72s"/>
+      '
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="0.90s"/>
+      m
+    </tspan>
+    <tspan> </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.08s"/>
+      K
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.26s"/>
+      e
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.44s"/>
+      k
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.62s"/>
+      s
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.80s"/>
+      s
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="1.98s"/>
+      k
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="2.16s"/>
+      k
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="2.34s"/>
+      s
+    </tspan>
+    <tspan>
+      <animate attributeName="fill" values="#534AB7;#1D9E75;#D85A30;#D4537E;#378ADD;#BA7517;#534AB7" dur="3s" repeatCount="indefinite" begin="2.52s"/>
+      !
+    </tspan>
+
+  </text>
+
+  <text x="340" y="92" text-anchor="middle" font-family="'Segoe UI', monospace" font-size="13" fill="#8b949e" letter-spacing="3">
+    Developer · Builder · Open Source
+  </text>
+</svg>
